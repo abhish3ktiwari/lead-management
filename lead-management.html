@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Leads</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Lead Management System</h1>
+    </header>
+    <main>
+        <h2>Manage Leads</h2>
+        <form>
+            <label for="leadName">Name:</label>
+            <input type="text" id="leadName" name="leadName">
+            
+            <label for="status">Status:</label>
+            <select id="status" name="status">
+                <option value="new">New</option>
+                <option value="contacted">Contacted</option>
+                <option value="not-interested">Not Interested</option>
+            </select>
+            
+            <button type="submit">Save Lead</button>
+        </form>
+    </main>
+</body>
+</html>
